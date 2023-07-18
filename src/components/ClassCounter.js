@@ -17,8 +17,9 @@ export default class ClassCounter extends Component {
   render() {
     return (
       <div>
-        <h1>{this.state.count}</h1>
-        <button onClick={this.incrementCount}>Increment</button>
+        <button onClick={this.incrementCount}>
+          Class Count {this.state.count}
+        </button>
       </div>
     );
   }
